@@ -8,6 +8,9 @@ Data sharing is on the rise. Community efforts to promote common data standard a
 .. toctree::
    :maxdepth: 3
    :caption: Outline:
-
-   HEDInEEGLAB.md
-   TaggingWithCTagger.md
+   
+   Introduction.md
+   DataIO.md
+   Preprocessing.md
+   Analysis.md
+   DiscussionAndConclusions.md
