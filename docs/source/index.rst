@@ -11,6 +11,6 @@ Data sharing is on the rise. Community efforts to promote common data standard a
    
    Introduction.md
    DataIO.md
-   Preprocessing.md
+   Preprocessing
    Analysis.md
    DiscussionAndConclusions.md
