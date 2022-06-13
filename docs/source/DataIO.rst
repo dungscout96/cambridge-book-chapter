@@ -4,5 +4,5 @@ Data IO
 
 .. toctree::
 
-  GettingData.md
-  EEGLABToBIDS.md
+  GettingData
+  EEGLABToBIDS
