@@ -11,9 +11,12 @@ python:
     - method: pip
       path: .
 
+# Build documentation in the docs/ directory with Sphinx
 sphinx:
-  fail_on_warning: true
+  builder: html
+  configuration: docs/source/conf.py
+  fail_on_warning: false
 
 formats:
+  - htmlzip
   - pdf
-  - epub
