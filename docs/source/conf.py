@@ -21,9 +21,9 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Cambridge book chapter'
+project = 'End-to-end processing of M/EEG data with BIDS and HED in EEGLAB'
 copyright = '2022-{}, HED Working Group'.format(date.today().year)
-author = 'HED Working Group'
+author = ' Dung Truong, Arnaud Delorme, Kay Robbins, Scott Makeig'
 
 # The full version, including alpha/beta/rc tags
 version = '0.0.1'
