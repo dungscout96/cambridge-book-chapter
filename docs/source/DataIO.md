@@ -1,12 +1,12 @@
-# Getting the data
-## Getting data from Openneuro/NEMAR
-## Import data to EEGLAB
+## Getting the data
+### Getting data from Openneuro/NEMAR
+### Import data to EEGLAB
 
-# From EEGLAB to BIDS
-## Organize your EEGLAB datasets to STUDY
-## Add BIDS metadata using bids-matlab-tools plug-in
+#$ From EEGLAB to BIDS
+### Organize your EEGLAB datasets to STUDY
+### Add BIDS metadata using bids-matlab-tools plug-in
 (eeglab-integration-anchor)=
-## Add HED annotation using HEDTools plug-in
+### Add HED annotation using HEDTools plug-in
 EEGLAB is the most widely used EEG software environment for analysis of 
 human electrophsyiological (and related) data.
 EEGLAB combines graphical and command-line user interfaces,
@@ -19,11 +19,11 @@ HED is fully integrated into EEGLAB via the *HEDTools* plug-in, allowing users t
 EEGLAB STUDY and datasets with HED,
 as well as enabling HED-based data manipulation and processing.
 
-### Installing *HEDTools*
+#### Installing *HEDTools*
 
 *HEDTools* EEGLAB plug-in can be installed using one of the following ways:
 
-#### Method 1: EEGLAB Extension Manager: 
+##### Method 1: EEGLAB Extension Manager: 
 
 Launch EEGLAB. From the main GUI select:
 
@@ -35,7 +35,7 @@ From this GUI look for and select the plug-in *HEDTools* from the main window,
 then click into the *Install/Update* button to install the plug-in.
 
 
-#### Method 2: Download and unzip
+##### Method 2: Download and unzip
 
 Download the zip file with the content of the plug-in *HEDTools* either from
 [**HED Matlab EEGLAB plugins**](https://github.com/hed-standard/hed-matlab/blob/master/EEGLABPlugin)
@@ -44,7 +44,7 @@ or from the EEGLAB [**plug-ins summary page**](https://sccn.ucsd.edu/eeglab/plug
 Unzip file into the folder *../eeglab/plugins* and restart the *eeglab* function in a MATLAB session.
 
 (annotating-datasets-anchor)=
-### Annotating datasets
+#### Annotating datasets
 
 We will start by adding HED annotations to the EEGLAB tutorial dataset.
 
@@ -72,7 +72,7 @@ or study to understand the recorded experimental events.
 As demonstrated below, such annotation will allow us to extract epochs using meaningful
 HED tags instead of the alpha-numeric codes often associated with shared EEG data.
 
-#### Launching EEGLAB HEDTools
+##### Launching EEGLAB HEDTools
 To add and view HED tags for the dataset, from EEGLAB menu, select:  
 
 > **Edit --> Add/Edit event HED tags**.  
@@ -118,7 +118,7 @@ Instructions on downloading and using the standalone version of CTagger,
 as well as step-by-step guide on how to add HED annotation with CTagger,
 can be found at in [**Tagging with CTagger**](./TaggingWithCTagger.md).
 
-#### Tagging the events
+##### Tagging the events
 A brief step-by-step guide to selecting tags can be found at
 [**HED annotation quickstart**](./HedAnnotationQuickstart.md).
 The following shows example annotations using the process suggested in the quickstart. we will import the annotation saved in the _events.json file format. 
@@ -132,7 +132,7 @@ to import it to CTagger. You can now review all the tags via:
 
 ![review tag](_static/images/review-all-tags.jpg)
 
-#### Validation
+##### Validation
 The last step of the annotation process is to validate the HED annotations.
 Click on the *Validate all* button at the bottom pane.
 A window will pop up showing validation results.
@@ -161,7 +161,7 @@ You just finished tagging! *HEDTools* generates the final HED string for each ev
 by concatenating all tags associated with the event values of that event (separated by commas).
 The final concatenated version is put the string in a new field **HED** in EEG.event. 
 
-### HED-based epoching
+#### HED-based epoching
 
 The EEGLAB *pop_epoch* function extracts data epochs that are time locked to specified event types.
 This function allows you to epoch on one of a specified list of event types as defined by the
@@ -206,4 +206,4 @@ Pressing "Enter" selects the current tag in the list and adds the tag to the sea
 You can continue search and add tags after adding a comma after each tag.
 When done, click the **Ok** button to return to the main epoching menu. 
 
-## Export EEGLAB STUDY to BIDS and upload to Openneuro
+### Export EEGLAB STUDY to BIDS and upload to Openneuro
