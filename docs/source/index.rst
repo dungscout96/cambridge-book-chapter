@@ -1,23 +1,14 @@
-Welcome to Lumache's documentation!
+End-to-end processing of M/EEG data with BIDS and HED in EEGLAB
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
+Abstract
+Data sharing is on the rise. Community efforts to promote common data standard and public data archive projects are first steps towards the possibility of large-scale M/EEG data analysis. It is thus ever more important that the community converge on methods of data reporting and formatting practice, and on methods of sharing and documenting data processing pipelines. HED and BIDS are two community standards that enable data authors to add extensive metadata into stored and shared M/EEG datasets. The EEGLAB toolbox fully supports these standards. Here we provide practical guides on the I/O workflow between BIDS, HED, and the EEGLAB environment, showing how researchers can import BIDS-formatted, HED-annotated datasets into EEGLAB, and how EEGLAB users can export BIDS-compatible, HED-annotated datasets. We will also provide practical guides on preprocessing pipelines that can be applied across datasets, enabling analysis across as well as within archived datasets.  
 
 Contents
 --------
 
 .. toctree::
 
-   usage
-   api
-Lumache has its documentation hosted on Read the Docs
+   Introduction
+   Data IO
+
