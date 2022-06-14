@@ -7,4 +7,4 @@ From EEGLAB to BIDS
   STUDYFormation.md
   HEDAnnotation.md
   BIDSMetadata.md  
-  ExportToBIDS.md
+  OpenneuroUpload.md
