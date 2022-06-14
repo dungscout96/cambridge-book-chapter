@@ -58,3 +58,5 @@ You can now review all the tags via CTagger menu:
 
 ![review tag](_static/images/review-all-tags.jpg)
 
+## View event summary
+TODO: Kay's tools?
