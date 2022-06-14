@@ -2,7 +2,7 @@
 
 The EEGLAB menu to import a BIDS dataset into an EEGLAB study is fully functional. Screen capture is shown below.
 
-![pop_importbids.m interface](pop_importbids.png)
+![pop_importbids.m interface](_static/images/pop_importbids.png)
 
 Raw EEG data file often has events. However, BIDS also define events in dedicated event files. Sometimes the BIDS event files contain more information than the raw EEG data file. In that case, users may choose to overwrite raw EEG data events with the event information contained in the BIDS event files.
 
