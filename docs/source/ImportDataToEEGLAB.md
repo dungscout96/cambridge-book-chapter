@@ -1,4 +1,5 @@
-# Import BIDS dataset using the EEGLAB bids-matlab-tools plug-in
+# Import data to EEGLAB
+## Import BIDS dataset using the EEGLAB bids-matlab-tools plug-in
 
 The EEGLAB menu to import a BIDS dataset into an EEGLAB study is fully functional. Screen capture is shown below.
 
@@ -10,15 +11,15 @@ Similarly, raw EEG data files often define channel labels. However, BIDS also de
 
 Finally, users may select an output folder for storing their EEGLAB STUDY. If a folder is not selected, EEGLAB will store STUDY files ''in place'' which means in the BIDS folder structure - resulting in the BIDS folder becoming non-BIDS compliant and failing to pass BIDS validation because of the additional EEGLAB files.
 
-# View HED annotation
+## View HED annotation
 HED is fully integrated into EEGLAB via the *HEDTools* plug-in, allowing users to annotate their
 EEGLAB STUDY and datasets with HED, as well as enabling HED-based data manipulation and processing.
 
-## Installing *HEDTools*
+### Installing *HEDTools*
 
 *HEDTools* EEGLAB plug-in can be installed using one of the following ways:
 
-### Method 1: EEGLAB Extension Manager: 
+#### Method 1: EEGLAB Extension Manager: 
 
 Launch EEGLAB. From the main GUI select:
 
@@ -30,7 +31,7 @@ From this GUI look for and select the plug-in *HEDTools* from the main window,
 then click into the *Install/Update* button to install the plug-in.
 
 
-### Method 2: Download and unzip
+#### Method 2: Download and unzip
 
 Download the zip file with the content of the plug-in *HEDTools* either from
 [**HED Matlab EEGLAB plugins**](https://github.com/hed-standard/hed-matlab/blob/master/EEGLABPlugin)
@@ -38,7 +39,7 @@ or from the EEGLAB [**plug-ins summary page**](https://sccn.ucsd.edu/eeglab/plug
 
 Unzip file into the folder *../eeglab/plugins* and restart the *eeglab* function in a MATLAB session.
 
-## Reviewing HED annotations via the EEGLAB HEDTools plug-in
+### Reviewing HED annotations via the EEGLAB HEDTools plug-in
 To add and view HED tags for the dataset, from EEGLAB menu, select:  
 
 > **Edit --> Add/Edit event HED tags**.  
