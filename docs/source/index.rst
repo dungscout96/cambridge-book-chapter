@@ -10,7 +10,7 @@ Data sharing is on the rise. Community efforts to promote common data standard a
    :caption: Outline:
    
    Introduction.md
-   DataIO.md
+   DataIO
    Preprocessing
    Analysis.md
    DiscussionAndConclusions.md
